@@ -39,6 +39,54 @@
         <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
     </PropertyGroup>
 
+    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-android|AnyCPU'">
+      <ApplicationId>com.jsilvestri.jsopx.mauihybridnetcore</ApplicationId>
+      <ApplicationIdGuid>EF7CF156-24A9-4B37-83DE-F14BC1AF735F</ApplicationIdGuid>
+      <ApplicationTitle>JSopX™ .NET MAUI Hybrid Core Open Project EXperience</ApplicationTitle>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-ios|AnyCPU'">
+      <ApplicationId>com.jsilvestri.jsopx.mauihybridnetcore</ApplicationId>
+      <ApplicationIdGuid>EF7CF156-24A9-4B37-83DE-F14BC1AF735F</ApplicationIdGuid>
+      <ApplicationTitle>JSopX™ .NET MAUI Hybrid Core Open Project EXperience</ApplicationTitle>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-maccatalyst|AnyCPU'">
+      <ApplicationId>com.jsilvestri.jsopx.mauihybridnetcore</ApplicationId>
+      <ApplicationIdGuid>EF7CF156-24A9-4B37-83DE-F14BC1AF735F</ApplicationIdGuid>
+      <ApplicationTitle>JSopX™ .NET MAUI Hybrid Core Open Project EXperience</ApplicationTitle>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-windows10.0.19041.0|AnyCPU'">
+      <ApplicationId>com.jsilvestri.jsopx.mauihybridnetcore</ApplicationId>
+      <ApplicationIdGuid>EF7CF156-24A9-4B37-83DE-F14BC1AF735F</ApplicationIdGuid>
+      <ApplicationTitle>JSopX™ .NET MAUI Hybrid Core Open Project EXperience</ApplicationTitle>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-android|AnyCPU'">
+      <ApplicationId>com.jsilvestri.jsopx.mauihybridnetcore</ApplicationId>
+      <ApplicationIdGuid>EF7CF156-24A9-4B37-83DE-F14BC1AF735F</ApplicationIdGuid>
+      <ApplicationTitle>JSopX™ .NET MAUI Hybrid Core Open Project EXperience</ApplicationTitle>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-ios|AnyCPU'">
+      <ApplicationId>com.jsilvestri.jsopx.mauihybridnetcore</ApplicationId>
+      <ApplicationIdGuid>EF7CF156-24A9-4B37-83DE-F14BC1AF735F</ApplicationIdGuid>
+      <ApplicationTitle>JSopX™ .NET MAUI Hybrid Core Open Project EXperience</ApplicationTitle>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-maccatalyst|AnyCPU'">
+      <ApplicationId>com.jsilvestri.jsopx.mauihybridnetcore</ApplicationId>
+      <ApplicationIdGuid>EF7CF156-24A9-4B37-83DE-F14BC1AF735F</ApplicationIdGuid>
+      <ApplicationTitle>JSopX™ .NET MAUI Hybrid Core Open Project EXperience</ApplicationTitle>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-windows10.0.19041.0|AnyCPU'">
+      <ApplicationId>com.jsilvestri.jsopx.mauihybridnetcore</ApplicationId>
+      <ApplicationIdGuid>EF7CF156-24A9-4B37-83DE-F14BC1AF735F</ApplicationIdGuid>
+      <ApplicationTitle>JSopX™ .NET MAUI Hybrid Core Open Project EXperience</ApplicationTitle>
+    </PropertyGroup>
+
     <ItemGroup>
         <!-- App Icon -->
         <MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
