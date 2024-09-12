@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSopX.ClassLibrary", "JSopX.ClassLibrary\JSopX.ClassLibrary\JSopX.ClassLibrary.csproj", "{45F74D9D-3926-49D1-90D4-F8410AA85269}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSopX.RCLxProper", "JSopX.RCLxProper\JSopX.RCLxProper\JSopX.RCLxProper.csproj", "{395D6256-998E-4CAB-849A-359122188C36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,14 @@ Global
 		{BB6BB967-A2CF-41BD-88E5-026B2915D63E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB6BB967-A2CF-41BD-88E5-026B2915D63E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BB6BB967-A2CF-41BD-88E5-026B2915D63E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{45F74D9D-3926-49D1-90D4-F8410AA85269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45F74D9D-3926-49D1-90D4-F8410AA85269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45F74D9D-3926-49D1-90D4-F8410AA85269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45F74D9D-3926-49D1-90D4-F8410AA85269}.Release|Any CPU.Build.0 = Release|Any CPU
+		{395D6256-998E-4CAB-849A-359122188C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{395D6256-998E-4CAB-849A-359122188C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{395D6256-998E-4CAB-849A-359122188C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{395D6256-998E-4CAB-849A-359122188C36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
