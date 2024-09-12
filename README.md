@@ -2,14 +2,14 @@
 ### from the ﻿jSilvestri.com BETA v 2024 the JSopX™ Open Project EXperiences Collection: 
 
 ### Phase 1 of 4
-Create the initial `JSopX.MuiHybridNetCore` Project (the .NET MAUI Hybrid & Asp.NET Core Web API Demo application). 
+Create the initial `JSopX.MauiHybridNetCore` Project (the .NET MAUI Hybrid & Asp.NET Core Web API Demo application). 
 
 ## Overview
-The `JSopX.MuiHybridNetCore` Project (.NET MAUI Hybrid & Asp.NET Core Web API Demo application) which leverages the same assets, components & Web API all other projects in the JSopX™ Open Project EXperiences collection, and is the official .NET MAUI Hybrid Project Example of the Enterprise-Level, Multi-Platform, Multi-Stack Application. 
+The `JSopX.MauiHybridNetCore` Project (.NET MAUI Hybrid & Asp.NET Core Web API Demo application) which leverages the same assets, components & Web API all other projects in the JSopX™ Open Project EXperiences collection, and is the official .NET MAUI Hybrid Project Example of the Enterprise-Level, Multi-Platform, Multi-Stack Application. 
 
 ### Prerequisites
 
-The `JSopX.MuiHybridNetCore` Project requires at least the following technologies to run as expected.
+The `JSopX.MauiHybridNetCore` Project requires at least the following technologies to run as expected.
 
 - [jSilvestri.com BETA v 2024 the JSopX™ Open Project EXperiences Collection Project](https://github.com/JasonSilvestri/JSopX.OpenProjectX)
 - [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
@@ -19,7 +19,7 @@ The `JSopX.MuiHybridNetCore` Project requires at least the following technologie
 
 ### Corequisites
 
-There are additional project resources from the [jSilvestri.com BETA v 2024 JSopX™ Open ProjectX Collection](https://github.com/JasonSilvestri/JSopX.OpenProjectX.git) that required in order for the The `JSopX.MuiHybridNetCore` Project to run as expected. 
+There are additional project resources from the [jSilvestri.com BETA v 2024 JSopX™ Open ProjectX Collection](https://github.com/JasonSilvestri/JSopX.OpenProjectX.git) that required in order for the The `JSopX.MauiHybridNetCore` Project to run as expected. 
 
 I encourage all who visit to dive in as much as you like, perform peer reviews, engage, and have fun! Conversely, to ensure all apps run as expected, you will need to know some of the following technologies:
 
@@ -98,12 +98,12 @@ If you have no interest in reviewing the documentation on the technologies from 
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/JasonSilvestri/JSopX.MuiHybridNetCore.git
+    git clone https://github.com/JasonSilvestri/JSopX.MauiHybridNetCore.git
     ```
 
 2. **Open the solution in Visual Studio**:
 
-    - Open `JSopX.MuiHybridNetCore.sln` in Visual Studio.
+    - Open `JSopX.MauiHybridNetCore.sln` in Visual Studio.
 
 3. **Build the project**:
 
